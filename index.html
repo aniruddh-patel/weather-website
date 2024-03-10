@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="box">
+            <div class="box_login">
+                <h2 id="timee">00:00</h2>
+                <h6 id="datee">Mon, 17 Febraury</h6>
+            </div>
+            <div class="box_login">
+                <h2 id="temprature">00 °C</h2>
+                <h6 id="conditionss">sunny</h6>
+            </div>
+            <div class="box_login">
+                <div class="inner_box">
+                    <div class="WeatherDetails">
+                        <h6>Pressure (mbar)</h6>
+                        <h3 id="Pressure">00</h3>
+                    </div>
+                    <div class="WeatherDetails">
+                        <h6>Humidity (%)</h6>
+                        <h3 id="Humidity">00</h3>
+                    </div>
+                    <div class="WeatherDetails">
+                        <h6>WindSpeed (kph)</h6>
+                        <h3 id="WindSpeed">00</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box_login">
+                <div class="inner_box">
+                    <div class="WeatherDetails">
+                        <h6>Condition</h6><img id="icon" src="" alt="logo">
+                    </div>
+                    <div class="WeatherDetails">
+                        <h6>Visibility (km)</h6>
+                        <h3 id="Visibility">00</h3>
+                    </div>
+                    <div class="WeatherDetails">
+                        <h6>UV(index)</h6>
+                        <h3 id="UV">00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search_box">
+            <div class="login">
+                <div class="inputs">
+                    <label class="textlabel">Search Location</label>
+                    <br>
+                    <input type="text" placeholder="" class="input" id="inputField">
+                    <br>
+                </div>
+                <button id="buttonField" class="btn" type="submit">Search</button>
+            </div>
+            <div class="box_login">
+                <h4 id="place" style="padding-bottom: 20px">Delhi</h4>
+                <h6 id="country">India</h6>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
